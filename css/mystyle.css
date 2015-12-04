@@ -1,0 +1,331 @@
+
+#apply{
+	margin-top: 80px;
+}
+	#list { font-family:Georgia, Times, serif; font-size:15px; }
+	#list ul { list-style: none; }
+	#list ul li { }
+	#list ul li  { display:block; text-decoration:none; color:#000000; background-color:#FFFFFF; line-height:30px;
+	  border-bottom-style:solid; border-bottom-width:1px; border-bottom-color:#CCCCCC; padding-left:10px; cursor:pointer; }
+	#list ul li:hover { color:white; background: darksalmon; background-repeat:repeat-x; }
+	#list ul li strong { margin-right:10px; }
+	#accordion, #resourcesTabs {  
+	    width: 900px;  
+	    margin-right: 20px auto;  
+	}
+	.nav li:first-child {
+		border-left: 1px solid white !important;
+	}
+	.nav li:last-child {
+		border-right: none !important;
+	}
+	body #pageStatusBar{display:none !important;}	
+	.ui-widget-content {
+		font-size: 16px;
+	}
+	.ui-state-default {
+		border: 1px solid #d3d3d3;
+		background: darkred !important;
+		font-weight: normal;
+		color: white !important;
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.thumbnail > img {
+		height: 200px !important;
+	}
+	.carousel {
+		margin-bottom: 0px !important;
+	}
+	footer {
+		margin: 100px 20px 20px 20px;
+		min-width: 900px;
+	}
+	.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+		color: white !important;
+	}
+	.ui-helper-reset {
+		font-size:15px;
+	}
+	#list ul li {
+		font-size:12px;
+	}
+	.ui-tabs .ui-tabs-nav hover {
+		color:black !important;
+	}
+	.ui-tabs .ui-tabs-nav li a {
+		font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+	}
+	.ui-accordion-header .ui-helper-reset .ui-state-default .ui-accordion-icons .ui-accordion-header-active .ui-state-active .ui-corner-top {
+		color: black !important;
+	}
+	ui-accordion-accordion-header-0 {
+		color:black !important;	
+	}
+	.form-control:focus {
+		border: 1px solid black !important;
+	}
+	
+	.modal-body .col-sm-2 {
+		min-width: 35% !important;
+		padding-left: 0px !important;
+	}
+	.equipment { 
+	width: 300px; 
+	border: 1px solid red; 
+	float: left;
+	}
+	
+	#accordion{
+		font-size: 17px;
+		float: left;
+		width: 50%;
+		padding: 5px;
+	}
+	#accordion2 {
+		font-size: 17px;
+		float: right;
+		width: 50%;
+		padding: 5px;
+	}
+	.left {
+		float: left;
+		width: 40%;
+	}
+	.right {
+		float: right;
+		width: 40%;
+	}
+	.jumbotron {
+		background: rgb(202, 188, 188);
+		color: black;
+		margin: 10px;
+		border: 2px solid white;
+		border-radius: 8px;
+	}
+	.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+		background-color: darkgoldenrod;
+	}
+	.jumbotron p {
+		line-height: 1.6;
+	}
+	.lead {
+		font-size: 17px;
+	}
+	.outer {
+		background-color: darkred;
+		color: white;
+		height: 250px !important;
+		max-width: 32% !important;
+		margin: .5%;
+		border: 2px darkred;
+		border-radius: 10px;
+		float:left;
+	}
+	.inner {
+		background-color: darksalmon;
+		color: darkred;
+		height: 250px !important;
+		max-width: 32% !important;
+		margin: .5%;
+		border: 2px darksalmon;
+		border-radius: 10px;
+		float:left;
+	}
+	.ui-tabs .ui-tabs-nav li.ui-tabs-active a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-tabs-loading a{
+		background: darksalmon;
+		color: darkred !important;
+	}
+	#tabs1 {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	a:hover, a:focus {
+		color: white !important;
+	}
+	.padding {
+		padding: 40px;
+		float: left;
+	}
+	.row {
+		margin: 3% 20px 3% 20px;
+	}
+	.contactRow {
+		margin-top: 30px;
+	}
+	.primary {
+		background-color: darkred;
+		color: white;
+	}
+	.secondary {
+		background-color: darksalmon;
+		color: darkred;
+	}
+
+	.thumbnail {
+		margin-top: 20px;
+	}
+	ol.simple-list {
+		list-style-type: none;
+		list-style-type: decimal !ie; /*IE 7- hack*/
+		 
+		margin: 0;
+		margin-left: 3em;
+		padding: 0;
+		 
+		counter-reset: li-counter;
+	}
+	ol.simple-list > li{
+		position: relative;
+		margin-bottom: 20px;
+		padding-left: 0.5em;
+		min-height: 3em;
+		border-left: 2px solid #CCCCCC;
+	}
+	ol.simple-list > li:before {
+		position: absolute;
+		top: 0;
+		left: -1em;
+		width: 0.8em;
+		 
+		font-size: 3em;
+		line-height: 1;
+		font-weight: bold;
+		text-align: right;
+		color: #464646;
+	 
+		content: counter(li-counter);
+		counter-increment: li-counter;
+	}
+	#listLeft {
+		padding: 30px;
+		width: 33%;
+		height: 430px;
+		float: left;
+	}
+	#listMiddle {
+		padding: 30px;
+		width: 33%;
+		height: 430px;
+		float: left;
+	}
+	#listRight {
+		padding: 30px;
+		width: 34%;
+		height: 430px;
+		float: left;
+	}
+	.pad {
+		padding-top: 10px;
+	}
+
+	.modal-body{
+		width: 100%;
+	}
+	.modal-content {
+		width: 80%;
+		margin-left: 10%;
+	}
+	.modal-footer {
+		margin-top: 0px !important;
+		background: #e5e5e5 !important;
+	}
+	.modal-header {
+		background: #e5e5e5 !important;
+	}
+	.employment .form-control {
+		width: 400px;
+	}
+	.employment {
+		padding: 30px;
+	}
+	.btn-default {
+		background: black;
+		color: white;
+	}
+	
+	.applicationButton {
+		-moz-box-shadow: 0px 10px 14px -7px #e67a73;
+		-webkit-box-shadow: 0px 10px 14px -7px #e67a73;
+		box-shadow: 0px 10px 14px -7px #e67a73;
+		background-color:darksalmon;
+		-moz-border-radius:8px;
+		-webkit-border-radius:8px;
+		border-radius:8px;
+		display:inline-block;
+		cursor:pointer;
+		color:darkred;
+		font-family:arial;
+		font-size:21px;
+		font-weight:bold;
+		padding:15px 60px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #b23e35;
+	}
+	.applicationButton:hover {
+		background-color:#eb675e;
+	}
+	.applicationButton:active {
+		position:relative;
+		top:1px;
+	}
+	.logoPadding {
+		padding: 7px 0 0 20px;
+	}
+	.navbar-brand {
+		background: url(pictures/logo.jpg) no-repeat left center !important;
+		height: 50px !important;
+		width: 150px !important;
+	}
+
+	.container {
+		width: 100% !important;
+	}
+	.navbar-wrapper .container {
+		padding: 0 0 0 0 !important;
+	}
+	.navbar-wrapper {
+		margin-top: 0 !important;
+	}
+	.navbar-brand {
+		float: left;
+		padding: 0 0 0 50px !important;
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.nav li {
+		border-right: 1px solid white;
+		
+	}
+	.navbar-wrapper .navbar {
+		height: 80px !important;
+		border-radius: 0px !important;
+	}
+	.nav {
+		padding-top: 12px !important;
+		background:#222222 !important;
+	}
+	.top {
+		float: right !important;
+	}
+	.mid {
+		float: left !important;
+	}
+	.bottom {
+		float: right !important;
+	}
+	.featurette-heading {
+		margin-top: 30px !important;
+	}
+	.contact-form {
+		float: left;
+	}
+	label {
+		display: none;
+	}
+	.pad-left {
+		padding-left: 150px;
+	}
+	#wrap {
+		height: 435px !important;
+	}

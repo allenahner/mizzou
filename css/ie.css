@@ -1,0 +1,30 @@
+label {
+	display: inline !important;
+}
+	 @media screen and (min-width: 480px){
+			.col-md-6 {
+			width: 700px !important;
+			}
+			.col-md-4 {
+				width: 33% !important;
+				float: left !important;
+			}
+			.col-md-5 {
+				width: 41.6666666666% !important;
+			}
+			.col-sm-8 {
+				width: width: 66.66666666666666% !important;
+			}
+			.col-md-12 {
+				width: 100%;
+			}
+
+		}
+	@media screen and (min-width: 768px){
+		.navbar-toggle {
+			display: none;
+		}
+		.navbar-nav {
+			display: inline !important;
+		}
+	}

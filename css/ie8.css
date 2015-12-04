@@ -1,0 +1,11 @@
+.nav-pills > li.active > a {
+	background: darkred !important;
+}
+
+a {
+	color: #999999;
+}
+a:hover {
+	background: none !important;
+	color: white !important;
+}
